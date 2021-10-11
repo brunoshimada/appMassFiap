@@ -4,6 +4,8 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {View, Text, FlatList, StyleSheet} from 'react-native';
 import Pressable from 'react-native/Libraries/Components/Pressable/Pressable';
 
+import LojaDetailComponent from './detail/LojaDetailComponent.js';
+
 const data = require('appmassfiap/assets/mockData.json');
 
 const ScreenLojaComponentStack = createNativeStackNavigator();
@@ -27,8 +29,8 @@ const ScreenLojaComponent = () => {
         }}
       />
       <ScreenLojaComponentStack.Screen
-        name="ScreenLojaComponentDetail"
-        component={ScreenLojaComponentDetail}
+        name="LojaDetailComponent"
+        component={LojaDetailComponent}
         options={{
           showHeading: false,
         }}
@@ -46,7 +48,9 @@ const ScreenLojaComponentMain = ({navigation}) => {
           return (
             <Pressable
               onPress={() => {
-                navigation.navigate('ScreenLojaComponentDetail');
+                navigation.navigate('LojaDetailComponent', {
+                  lojaId: item.id,
+                });
               }}>
               <ScreenLojaComponentListItem
                 nomeLoja={item.nomeLoja}
@@ -72,10 +76,6 @@ const ScreenLojaComponentListItem = props => {
       </Text>
     </View>
   );
-};
-
-const ScreenLojaComponentDetail = ({navigation, route}) => {
-  return <Text> on details </Text>;
 };
 
 const styles = StyleSheet.create({

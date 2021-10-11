@@ -28,7 +28,7 @@ const TabNavigatorComponent = () => {
         name="Lojas2Component"
         component={Lojas2Component}
         options={{
-          tabBarLabel: 'Lojas2',
+          tabBarLabel: 'Médicos',
           tabBarIcon: ({color}) => (
             <MaterialCommunityIcons
               name="mother-heart"

@@ -1,0 +1,19 @@
+{
+    "itensByLoja": [
+        {
+            "idLoja": 1,
+            "itens": [
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 19.99
+                },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00
+                }
+            ]
+        }
+    ]
+}

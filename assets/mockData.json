@@ -1,32 +1,14 @@
 {
     "lojas": [
         {
+            "id": 1,
             "nomeLoja": "Farmácia 1",
             "tempoEntregaMin": 45,
             "tempoEntregaMax": 80,
             "frete": 9.99
         },
         {
-            "nomeLoja": "Farmácia 1",
-            "tempoEntregaMin": 45,
-            "tempoEntregaMax": 80,
-            "frete": 9.99
-        },{
-            "nomeLoja": "Farmácia 1",
-            "tempoEntregaMin": 45,
-            "tempoEntregaMax": 80,
-            "frete": 9.99
-        },{
-            "nomeLoja": "Farmácia 1",
-            "tempoEntregaMin": 45,
-            "tempoEntregaMax": 80,
-            "frete": 9.99
-        },{
-            "nomeLoja": "Farmácia 1",
-            "tempoEntregaMin": 45,
-            "tempoEntregaMax": 80,
-            "frete": 9.99
-        },{
+            "id": 2,
             "nomeLoja": "Farmácia 1",
             "tempoEntregaMin": 45,
             "tempoEntregaMax": 80,
