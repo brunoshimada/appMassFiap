@@ -9,7 +9,42 @@
         },
         {
             "id": 2,
-            "nomeLoja": "Farmácia 1",
+            "nomeLoja": "Farmácia 2",
+            "tempoEntregaMin": 45,
+            "tempoEntregaMax": 80,
+            "frete": 9.99
+        },
+        {
+            "id": 3,
+            "nomeLoja": "Farmácia 3",
+            "tempoEntregaMin": 45,
+            "tempoEntregaMax": 80,
+            "frete": 9.99
+        },
+        {
+            "id": 4,
+            "nomeLoja": "Farmácia 4",
+            "tempoEntregaMin": 45,
+            "tempoEntregaMax": 80,
+            "frete": 9.99
+        },
+        {
+            "id": 5,
+            "nomeLoja": "Farmácia 5",
+            "tempoEntregaMin": 45,
+            "tempoEntregaMax": 80,
+            "frete": 9.99
+        },
+        {
+            "id": 6,
+            "nomeLoja": "Farmácia 5",
+            "tempoEntregaMin": 45,
+            "tempoEntregaMax": 80,
+            "frete": 9.99
+        },
+        {
+            "id": 7,
+            "nomeLoja": "Farmácia 5",
             "tempoEntregaMin": 45,
             "tempoEntregaMax": 80,
             "frete": 9.99

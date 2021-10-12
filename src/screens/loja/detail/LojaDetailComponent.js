@@ -1,4 +1,3 @@
-import {SCOPABLE_TYPES} from '@babel/types';
 import React, {useCallback, useEffect, useState} from 'react';
 import {
   ActivityIndicator,
@@ -7,6 +6,7 @@ import {
   FlatList,
   StyleSheet,
 } from 'react-native';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const itensByLojaData = require('appmassfiap/assets/itensByLoja.json');
 
@@ -21,8 +21,9 @@ const LojaDetailComponent = ({navigation, route}) => {
         itensLoja => {
           return itensLoja.idLoja === lojaId;
         },
-      )[0];
-      setData(response);
+      );
+
+      setData(response.length >= 1 ? response[0] : []);
     } catch (error) {
       console.error(error);
     } finally {
@@ -35,17 +36,87 @@ const LojaDetailComponent = ({navigation, route}) => {
   }, [lojaId]);
 
   return (
-    <View>
+    <View style={{flex: 1}}>
       {isLoading ? (
         <ActivityIndicator size="large" color="#E63946" />
       ) : (
-        <FlatList
-          data={getData.itens}
-          renderItem={({item}) => {
-            return <Text>{item.preco}</Text>;
-          }}
-        />
+        <View>
+          <LojaHeader
+            loja={route.params.nomeDaLoja}
+            tempoEntregaMin={route.params.tempoEntregaMin}
+            tempoEntregaMax={route.params.tempoEntregaMax}
+            frete={route.params.frete}
+          />
+          <View style={{height: 0.8, backgroundColor: '#A8DADC'}} />
+          <View style={{padding: 10}}>
+            <Text style={{fontSize: 30, fontWeight: '400', color: '#000000'}}>
+              Produtos
+            </Text>
+            <FlatList
+              style={{paddingVertical: 20}}
+              data={getData.itens}
+              renderItem={({item}) => {
+                return (
+                  <LojaItem
+                    nomeProduto={item.nomeProduto}
+                    fabricante={item.fabricante}
+                    preco={item.preco}
+                    descricao={item.descricao}
+                  />
+                );
+              }}
+            />
+          </View>
+        </View>
       )}
+    </View>
+  );
+};
+
+const LojaHeader = props => {
+  return (
+    <View
+      style={{
+        height: 100,
+        padding: 10,
+        elevation: 0,
+      }}>
+      <Text style={styles.heading}>{props.loja}</Text>
+      <View style={{flexDirection: 'row'}}>
+        <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
+          <MaterialCommunityIcons
+            name="clock-time-two-outline"
+            color={'#000000'}
+            size={25}
+          />
+          <Text style={{paddingHorizontal: 5, fontSize: 20}}>
+            {props.tempoEntregaMin} - {props.tempoEntregaMax} (mins)
+          </Text>
+        </View>
+        <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
+          <MaterialCommunityIcons
+            name="motorbike"
+            color={'#000000'}
+            size={25}
+          />
+          <Text style={{paddingHorizontal: 5, fontSize: 20}}>
+            R$ {props.frete}
+          </Text>
+        </View>
+      </View>
+    </View>
+  );
+};
+
+const LojaItem = props => {
+  return (
+    <View
+      style={{borderTopWidth: 1, borderTopColor: 'black', paddingVertical: 5}}>
+      <Text style={styles.heading}>{props.nomeProduto}</Text>
+      <Text>{props.descricao}</Text>
+      <Text>
+        Fabricante: {props.fabricante} - R$ {props.preco}
+      </Text>
     </View>
   );
 };

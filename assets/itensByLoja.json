@@ -4,14 +4,22 @@
             "idLoja": 1,
             "itens": [
                 {
-                    "nomeProduto": "AAA",
+                    "nomeProduto": "AAAvasd",
                     "fabricante": "BHB",
-                    "preco": 19.99
+                    "preco": 19.99,
+                    "descricao": "blbalblablalb"
                 },
                 {
                     "nomeProduto": "AAA",
                     "fabricante": "BHB",
-                    "preco": 30.00
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
+                },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
                 }
             ]
         }
