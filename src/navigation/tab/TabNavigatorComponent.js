@@ -5,6 +5,7 @@ import {Text} from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import ScreenLojaComponent from 'srcComponent/screens/loja/ScreenLojaComponent.js';
+import ScreenMedicoComponent from 'srcComponent/screens/medico/ScreenMedicoComponent.js';
 
 const TabNavigator = createMaterialBottomTabNavigator();
 
@@ -25,8 +26,8 @@ const TabNavigatorComponent = () => {
         }}
       />
       <TabNavigator.Screen
-        name="Lojas2Component"
-        component={Lojas2Component}
+        name="ScreenMedicoComponent"
+        component={ScreenMedicoComponent}
         options={{
           tabBarLabel: 'Médicos',
           tabBarIcon: ({color}) => (
@@ -40,10 +41,6 @@ const TabNavigatorComponent = () => {
       />
     </TabNavigator.Navigator>
   );
-};
-
-const Lojas2Component = () => {
-  return <Text>BBB</Text>;
 };
 
 export default TabNavigatorComponent;
