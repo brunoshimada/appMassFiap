@@ -67,20 +67,23 @@ const ScreenRemediosComponentMain = ({navigator}) => {
           return itemSearchedPosition >= 0;
         })
         .map(itensByLojaComProduto => {
-          const itemSearchedPosition = Array.from(
+          const allItensMatchingName = Array.from(
             itensByLojaComProduto.itens,
-          ).findIndex(item => {
+          ).filter(item => {
             return String(item.nomeProduto)
               .toLowerCase()
               .includes(input.toLowerCase());
           });
 
-          return {
-            idLoja: itensByLojaComProduto.idLoja,
-            nomeLoja: findNomeLoja(itensByLojaComProduto.idLoja),
-            ...itensByLojaComProduto.itens[itemSearchedPosition],
-          };
+          return Array.from(allItensMatchingName).map(itemMatched => {
+            return {
+              idLoja: itensByLojaComProduto.idLoja,
+              nomeLoja: findNomeLoja(itensByLojaComProduto.idLoja),
+              ...itemMatched,
+            };
+          });
         })
+        .flat()
         .sort((a, b) => {
           return a.preco - b.preco;
         }),
@@ -93,6 +96,7 @@ const ScreenRemediosComponentMain = ({navigator}) => {
         paddingHorizontal: 10,
         paddingVertical: 5,
         backgroundColor: '#FFFFFF',
+        flex: 1,
       }}>
       <TextInput
         style={styles.textInputStyle}
@@ -119,7 +123,7 @@ const ScreenRemediosComponentMain = ({navigator}) => {
 
 const ScreenRemediosComponentItem = props => {
   return (
-    <View style={[styles.card, styles.shadowProp]}>
+    <View style={[styles.card, styles.shadowProp, {flex: 1}]}>
       <Text style={styles.heading}>{props.nomeLoja}</Text>
       <Text>
         <Text style={{fontSize: 25, fontWeight: '500', color: '#000000'}}>

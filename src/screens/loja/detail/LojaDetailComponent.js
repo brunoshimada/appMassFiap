@@ -40,7 +40,7 @@ const LojaDetailComponent = ({navigation, route}) => {
       {isLoading ? (
         <ActivityIndicator size="large" color="#E63946" />
       ) : (
-        <View>
+        <View style={{flex: 1}}>
           <LojaHeader
             loja={route.params.nomeDaLoja}
             tempoEntregaMin={route.params.tempoEntregaMin}
@@ -48,23 +48,21 @@ const LojaDetailComponent = ({navigation, route}) => {
             frete={route.params.frete}
           />
           <View style={{height: 0.8, backgroundColor: '#A8DADC'}} />
-          <View style={{padding: 10}}>
+          <View style={{paddingHorizontal: 10, flex: 1}}>
             <Text style={{fontSize: 30, fontWeight: '400', color: '#000000'}}>
               Produtos
             </Text>
             <FlatList
-              style={{paddingVertical: 20}}
               data={getData.itens}
-              renderItem={({item}) => {
-                return (
-                  <LojaItem
-                    nomeProduto={item.nomeProduto}
-                    fabricante={item.fabricante}
-                    preco={item.preco}
-                    descricao={item.descricao}
-                  />
-                );
-              }}
+              initialNumToRender={getData.itens.length}
+              renderItem={({item}) => (
+                <LojaItem
+                  nomeProduto={item.nomeProduto}
+                  fabricante={item.fabricante}
+                  preco={item.preco}
+                  descricao={item.descricao}
+                />
+              )}
             />
           </View>
         </View>
@@ -100,7 +98,7 @@ const LojaHeader = props => {
             size={25}
           />
           <Text style={{paddingHorizontal: 5, fontSize: 20}}>
-            R$ {props.frete}
+            {props.frete === 0 ? 'Grátis' : `R$ ${props.frete}`}
           </Text>
         </View>
       </View>
@@ -111,7 +109,12 @@ const LojaHeader = props => {
 const LojaItem = props => {
   return (
     <View
-      style={{borderTopWidth: 1, borderTopColor: 'black', paddingVertical: 5}}>
+      style={{
+        borderTopWidth: 1,
+        borderTopColor: 'black',
+        paddingVertical: 5,
+        flex: 1,
+      }}>
       <Text style={styles.heading}>{props.nomeProduto}</Text>
       <Text style={{fontSize: 20}}>{props.descricao}</Text>
       <Text style={{fontSize: 20}}>
