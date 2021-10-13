@@ -121,11 +121,18 @@ const ScreenRemediosComponentItem = props => {
   return (
     <View style={[styles.card, styles.shadowProp]}>
       <Text style={styles.heading}>{props.nomeLoja}</Text>
-      <Text>{props.nomeProduto}</Text>
-      <Text>{props.descricao}</Text>
       <Text>
-        Fabricante: {props.fabricante} - R$ {props.preco}
+        <Text style={{fontSize: 25, fontWeight: '500', color: '#000000'}}>
+          {props.nomeProduto}
+        </Text>
+        <Text style={{fontSize: 25, fontWeight: '500', color: '#457b9d'}}>
+          {' '}
+          R$ {props.preco}
+        </Text>
       </Text>
+
+      <Text>{props.descricao}</Text>
+      <Text>Fabricante: {props.fabricante}</Text>
     </View>
   );
 };

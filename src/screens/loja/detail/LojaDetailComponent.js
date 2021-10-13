@@ -113,8 +113,8 @@ const LojaItem = props => {
     <View
       style={{borderTopWidth: 1, borderTopColor: 'black', paddingVertical: 5}}>
       <Text style={styles.heading}>{props.nomeProduto}</Text>
-      <Text>{props.descricao}</Text>
-      <Text>
+      <Text style={{fontSize: 20}}>{props.descricao}</Text>
+      <Text style={{fontSize: 20}}>
         Fabricante: {props.fabricante} - R$ {props.preco}
       </Text>
     </View>
