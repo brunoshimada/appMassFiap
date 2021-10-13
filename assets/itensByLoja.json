@@ -4,52 +4,60 @@
             "idLoja": 1,
             "itens": [
                 {
-                    "nomeProduto": "neosaldina",
-                    "fabricante": "BHB",
-                    "preco": 29.99,
-                    "descricao": "blbalblablalb"
+                    "id": "12312431",
+                    "nomeProduto": "Dorflex",
+                    "fabricante": "Sanofi",
+                    "preco": 8.70,
+                    "descricao": "Dorflex Uno 1g Env 10 cprs"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "12312432",
+                    "nomeProduto": "Neosaldina",
+                    "fabricante": "Takeda",
+                    "preco": 13.94,
+                    "descricao": "Neosaldina 1 Blister com 10 Drágeas"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "12312433",
+                    "nomeProduto": "Neosaldina",
+                    "fabricante": "Takeda",
+                    "preco": 24.89,
+                    "descricao": "Neosaldina com 20 Drágeas"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "12312434",
+                    "nomeProduto": "Engov",
+                    "fabricante": "Hypera",
+                    "preco": 12.10,
+                    "descricao": "Engov 12 Comprimidos"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "12312435",
+                    "nomeProduto": "Lisador",
+                    "fabricante": "Hypera",
+                    "preco": 31.90,
+                    "descricao": "Lisador Dip 1g 20 Comprimidos"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "12312436",
+                    "nomeProduto": "Lisador",
+                    "fabricante": "Hypera",
+                    "preco": 15.90,
+                    "descricao": "Lisador Dip 1g 10 Comprimidos"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "12312437",
+                    "nomeProduto": "Flanax",
+                    "fabricante": "Bayer",
+                    "preco": 5.95,
+                    "descricao": "Análgesico Flanax 550mg 2 Comprimidos"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "12312438",
+                    "nomeProduto": "Flanax",
+                    "fabricante": "Bayer",
+                    "preco": 31.91,
+                    "descricao": "Análgesico Flanax 550mg 15 Comprimidos"
                 }
             ]
         },
@@ -57,52 +65,32 @@
             "idLoja": 2,
             "itens": [
                 {
-                    "nomeProduto": "neo saldina",
-                    "fabricante": "BHB",
-                    "preco": 20.00,
-                    "descricao": "blbalblablalb"
+                    "id": "1237782",
+                    "nomeProduto": "Neosaldina",
+                    "fabricante": "Takeda",
+                    "preco": 12.94,
+                    "descricao": "Neosaldina 1 Blister com 10 Drágeas"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "1237783",
+                    "nomeProduto": "Neosaldina",
+                    "fabricante": "Takeda",
+                    "preco": 25.89,
+                    "descricao": "Neosaldina com 20 Drágeas"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "1237784",
+                    "nomeProduto": "Lisador",
+                    "fabricante": "Hypera",
+                    "preco": 30.90,
+                    "descricao": "Lisador Dip 1g 20 Comprimidos"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
-                },
-                {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
-                },
-                {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
-                },
-                {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
-                },
-                {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "1237785",
+                    "nomeProduto": "Lisador",
+                    "fabricante": "Hypera",
+                    "preco": 15.70,
+                    "descricao": "Lisador Dip 1g 10 Comprimidos"
                 }
             ]
         },
@@ -110,46 +98,194 @@
             "idLoja": 3,
             "itens": [
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "28371289371",
+                    "nomeProduto": "Dorflex",
+                    "fabricante": "Sanofi",
+                    "preco": 7.70,
+                    "descricao": "Dorflex Uno 1g Env 10 cprs"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "28371289372",
+                    "nomeProduto": "Engov",
+                    "fabricante": "Hypera",
+                    "preco": 12.05,
+                    "descricao": "Engov 12 Comprimidos"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "28371289373",
+                    "nomeProduto": "Lisador",
+                    "fabricante": "Hypera",
+                    "preco": 31.80,
+                    "descricao": "Lisador Dip 1g 20 Comprimidos"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "28371289374",
+                    "nomeProduto": "Lisador",
+                    "fabricante": "Hypera",
+                    "preco": 18.90,
+                    "descricao": "Lisador Dip 1g 10 Comprimidos"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "28371289375",
+                    "nomeProduto": "Flanax",
+                    "fabricante": "Bayer",
+                    "preco": 6.95,
+                    "descricao": "Análgesico Flanax 550mg 2 Comprimidos"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "28371289376",
+                    "nomeProduto": "Flanax",
+                    "fabricante": "Bayer",
+                    "preco": 31.72,
+                    "descricao": "Análgesico Flanax 550mg 15 Comprimidos"
+                }
+            ]
+        },
+        {
+            "idLoja": 4,
+            "itens": [
+                {
+                    "id": "76523111",
+                    "nomeProduto": "Dorflex",
+                    "fabricante": "Sanofi",
+                    "preco": 8.70,
+                    "descricao": "Dorflex Uno 1g Env 10 cprs"
                 },
                 {
-                    "nomeProduto": "AAA",
-                    "fabricante": "BHB",
-                    "preco": 30.00,
-                    "descricao": "blbalblablalb"
+                    "id": "76523112",
+                    "nomeProduto": "Neosaldina",
+                    "fabricante": "Takeda",
+                    "preco": 11.94,
+                    "descricao": "Neosaldina 1 Blister com 10 Drágeas"
+                },
+                {
+                    "id": "76523113",
+                    "nomeProduto": "Engov",
+                    "fabricante": "Hypera",
+                    "preco": 12.15,
+                    "descricao": "Engov 12 Comprimidos"
+                },
+                {
+                    "id": "76523114",
+                    "nomeProduto": "Lisador",
+                    "fabricante": "Hypera",
+                    "preco": 33.90,
+                    "descricao": "Lisador Dip 1g 20 Comprimidos"
+                },
+                {
+                    "id": "76523115",
+                    "nomeProduto": "Lisador",
+                    "fabricante": "Hypera",
+                    "preco": 15.90,
+                    "descricao": "Lisador Dip 1g 10 Comprimidos"
+                },
+                {
+                    "id": "76523116",
+                    "nomeProduto": "Flanax",
+                    "fabricante": "Bayer",
+                    "preco": 37.10,
+                    "descricao": "Análgesico Flanax 550mg 15 Comprimidos"
+                }
+            ]
+        },
+        {
+            "idLoja": 5,
+            "itens": [
+                {
+                    "id": "997651",
+                    "nomeProduto": "Dorflex",
+                    "fabricante": "Sanofi",
+                    "preco": 8.70,
+                    "descricao": "Dorflex Uno 1g Env 10 cprs"
+                },
+                {
+                    "id": "997652",
+                    "nomeProduto": "Neosaldina",
+                    "fabricante": "Takeda",
+                    "preco": 13.94,
+                    "descricao": "Neosaldina 1 Blister com 10 Drágeas"
+                },
+                {
+                    "id": "997653",
+                    "nomeProduto": "Neosaldina",
+                    "fabricante": "Takeda",
+                    "preco": 28.89,
+                    "descricao": "Neosaldina com 20 Drágeas"
+                },
+                {
+                    "id": "997654",
+                    "nomeProduto": "Engov",
+                    "fabricante": "Hypera",
+                    "preco": 11.10,
+                    "descricao": "Engov 12 Comprimidos"
+                },
+                {
+                    "id": "9976516",
+                    "nomeProduto": "Lisador",
+                    "fabricante": "Hypera",
+                    "preco": 15.90,
+                    "descricao": "Lisador Dip 1g 10 Comprimidos"
+                }
+            ]
+        },
+        {
+            "idLoja": 6,
+            "itens": [
+                {
+                    "id": "766541",
+                    "nomeProduto": "Dorflex",
+                    "fabricante": "Sanofi",
+                    "preco": 7.70,
+                    "descricao": "Dorflex Uno 1g Env 10 cprs"
+                },
+                {
+                    "id": "766542",
+                    "nomeProduto": "Neosaldina",
+                    "fabricante": "Takeda",
+                    "preco": 15.94,
+                    "descricao": "Neosaldina 1 Blister com 10 Drágeas"
+                },
+                {
+                    "id": "766543",
+                    "nomeProduto": "Neosaldina",
+                    "fabricante": "Takeda",
+                    "preco": 30.89,
+                    "descricao": "Neosaldina com 20 Drágeas"
+                },
+                {
+                    "id": "766544",
+                    "nomeProduto": "Engov",
+                    "fabricante": "Hypera",
+                    "preco": 14.10,
+                    "descricao": "Engov 12 Comprimidos"
+                },
+                {
+                    "id": "766545",
+                    "nomeProduto": "Lisador",
+                    "fabricante": "Hypera",
+                    "preco": 31.95,
+                    "descricao": "Lisador Dip 1g 20 Comprimidos"
+                },
+                {
+                    "id": "766546",
+                    "nomeProduto": "Lisador",
+                    "fabricante": "Hypera",
+                    "preco": 14.95,
+                    "descricao": "Lisador Dip 1g 10 Comprimidos"
+                },
+                {
+                    "id": "766547",
+                    "nomeProduto": "Flanax",
+                    "fabricante": "Bayer",
+                    "preco": 4.00,
+                    "descricao": "Análgesico Flanax 550mg 2 Comprimidos"
+                },
+                {
+                    "id": "766548",
+                    "nomeProduto": "Flanax",
+                    "fabricante": "Bayer",
+                    "preco": 36.50,
+                    "descricao": "Análgesico Flanax 550mg 15 Comprimidos"
                 }
             ]
         }

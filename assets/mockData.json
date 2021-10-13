@@ -2,52 +2,45 @@
     "lojas": [
         {
             "id": 1,
-            "nomeLoja": "Farmácia 1",
-            "tempoEntregaMin": 45,
-            "tempoEntregaMax": 80,
-            "frete": 9.99
+            "nomeLoja": "Droga Raia",
+            "tempoEntregaMin": 60,
+            "tempoEntregaMax": 90,
+            "frete": 0
         },
         {
             "id": 2,
-            "nomeLoja": "Farmácia 2",
+            "nomeLoja": "Drogasil",
             "tempoEntregaMin": 45,
             "tempoEntregaMax": 80,
-            "frete": 9.99
+            "frete": 7.99
         },
         {
             "id": 3,
-            "nomeLoja": "Farmácia 3",
+            "nomeLoja": "Drogaria São Paulo",
             "tempoEntregaMin": 45,
-            "tempoEntregaMax": 80,
+            "tempoEntregaMax": 60,
             "frete": 9.99
         },
         {
             "id": 4,
-            "nomeLoja": "Farmácia 4",
-            "tempoEntregaMin": 45,
-            "tempoEntregaMax": 80,
-            "frete": 9.99
+            "nomeLoja": "Bifarma",
+            "tempoEntregaMin": 15,
+            "tempoEntregaMax": 30,
+            "frete": 12.99
         },
         {
             "id": 5,
-            "nomeLoja": "Farmácia 5",
+            "nomeLoja": "Farmácia Pague Menos",
             "tempoEntregaMin": 45,
             "tempoEntregaMax": 80,
             "frete": 9.99
         },
         {
             "id": 6,
-            "nomeLoja": "Farmácia 5",
-            "tempoEntregaMin": 45,
-            "tempoEntregaMax": 80,
-            "frete": 9.99
-        },
-        {
-            "id": 7,
-            "nomeLoja": "Farmácia 5",
-            "tempoEntregaMin": 45,
-            "tempoEntregaMax": 80,
-            "frete": 9.99
+            "nomeLoja": "Panvel",
+            "tempoEntregaMin": 50,
+            "tempoEntregaMax": 90,
+            "frete": 5.99
         }
     ]
 }
