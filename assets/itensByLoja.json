@@ -4,11 +4,111 @@
             "idLoja": 1,
             "itens": [
                 {
-                    "nomeProduto": "AAAvasd",
+                    "nomeProduto": "neosaldina",
                     "fabricante": "BHB",
-                    "preco": 19.99,
+                    "preco": 29.99,
                     "descricao": "blbalblablalb"
                 },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
+                },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
+                },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
+                },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
+                },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
+                },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
+                },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
+                }
+            ]
+        },
+        {
+            "idLoja": 2,
+            "itens": [
+                {
+                    "nomeProduto": "neosaldina",
+                    "fabricante": "BHB",
+                    "preco": 20.00,
+                    "descricao": "blbalblablalb"
+                },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
+                },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
+                },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
+                },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
+                },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
+                },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
+                },
+                {
+                    "nomeProduto": "AAA",
+                    "fabricante": "BHB",
+                    "preco": 30.00,
+                    "descricao": "blbalblablalb"
+                }
+            ]
+        },
+        {
+            "idLoja": 3,
+            "itens": [
                 {
                     "nomeProduto": "AAA",
                     "fabricante": "BHB",

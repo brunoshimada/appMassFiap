@@ -6,6 +6,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 
 import ScreenLojaComponent from 'srcComponent/screens/loja/ScreenLojaComponent.js';
 import ScreenMedicoComponent from 'srcComponent/screens/medico/ScreenMedicoComponent.js';
+import ScreenRemediosComponent from 'srcComponent/screens/remedios/ScreenRemediosComponent.js';
 
 const TabNavigator = createMaterialBottomTabNavigator();
 
@@ -22,6 +23,16 @@ const TabNavigatorComponent = () => {
           tabBarLabel: 'Lojas',
           tabBarIcon: ({color}) => (
             <MaterialCommunityIcons name="store" color={color} size={26} />
+          ),
+        }}
+      />
+      <TabNavigator.Screen
+        name="ScreenRemediosComponent"
+        component={ScreenRemediosComponent}
+        options={{
+          tabBarLabel: 'Medicamentos',
+          tabBarIcon: ({color}) => (
+            <MaterialCommunityIcons name="pill" color={color} size={26} />
           ),
         }}
       />
